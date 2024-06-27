@@ -1,0 +1,28 @@
+html, body {
+  margin: 0px;
+  background-color: #2F4F30;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
+  
+}
+
+#computer-cards, #player-cards {
+  height: 300px;
+  white-space: nowrap; /* Evita que las cartas se desborden */
+  overflow-x: auto; /* Añade un scroll horizontal si es necesario */
+}
